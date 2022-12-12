@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>dc143cf4-5304-4a38-a2b0-832c30515779</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NFTDatabaseEntities</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Auction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AuctionAccept.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CartItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Category.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CategoryView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollectionView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Contract.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FavoriteCollectionItemCategory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Favourite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)History.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemSale.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListPrice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AuctionUserCollectionItemCategory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XPOVerseLot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MarketPlaceRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MarketPlaceResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Offer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OfferAccept.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Option.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Role.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SaleItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sale.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OfferUserCollectionItemCategory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserImage.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTDatabase", "NFTDatabase\NFTDatabase.csproj", "{2D93DDF1-8E32-46C0-BD74-37B5B48085DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTDatabaseService", "NFTDatabaseService\NFTDatabaseService.csproj", "{2C2F6DB5-8389-4667-BA42-96F53EC98E5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTApplication", "NFTApplication\NFTApplication.csproj", "{664589E3-0628-41D1-BCB2-ACB04D76BF01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTBlockchainService", "NFTBlockchainService\NFTBlockchainService.csproj", "{C2289109-B314-4935-8D7E-7C4EEE1BCFD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTApplicationAdmin", "NFTApplicationAdmin\NFTApplicationAdmin.csproj", "{BF19F998-CA49-4F01-82E1-7B386E21F4D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTWallet", "NFTWallet\NFTWallet.csproj", "{D642CF93-E1D5-43F9-8B77-097C19042F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTWalletService", "NFTWalletService\NFTWalletService.csproj", "{83A669E6-5379-47DA-8828-29630446A823}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NFTWalletEntities", "NFTWalletEntities\NFTWalletEntities.shproj", "{879D233D-E3DF-452A-889C-E4F59CBE5216}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NFTDatabaseEntities", "NFTDatabaseEntities\NFTDatabaseEntities.shproj", "{DC143CF4-5304-4A38-A2B0-832C30515779}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NFTBlockchainEntities", "NFTBlockchainEntities\NFTBlockchainEntities.shproj", "{4C943B31-1411-4F08-87B5-1D961DFBFE3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTBlockchain", "NFTBlockchain\NFTBlockchain.csproj", "{C38BFAC4-A295-4C2A-8D94-3A063BD11853}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFTDatabaseService.Tests", "NFTDatabaseService.Tests\NFTDatabaseService.Tests.csproj", "{B137808E-87F1-46C8-8B08-9DA92EBA1D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFTWalletService.Tests", "NFTWalletService.Tests\NFTWalletService.Tests.csproj", "{519F1717-E0A2-41C6-8807-84093D78A6A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D93DDF1-8E32-46C0-BD74-37B5B48085DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D93DDF1-8E32-46C0-BD74-37B5B48085DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D93DDF1-8E32-46C0-BD74-37B5B48085DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D93DDF1-8E32-46C0-BD74-37B5B48085DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2F6DB5-8389-4667-BA42-96F53EC98E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2F6DB5-8389-4667-BA42-96F53EC98E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2F6DB5-8389-4667-BA42-96F53EC98E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2F6DB5-8389-4667-BA42-96F53EC98E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664589E3-0628-41D1-BCB2-ACB04D76BF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664589E3-0628-41D1-BCB2-ACB04D76BF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664589E3-0628-41D1-BCB2-ACB04D76BF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664589E3-0628-41D1-BCB2-ACB04D76BF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2289109-B314-4935-8D7E-7C4EEE1BCFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2289109-B314-4935-8D7E-7C4EEE1BCFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2289109-B314-4935-8D7E-7C4EEE1BCFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2289109-B314-4935-8D7E-7C4EEE1BCFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF19F998-CA49-4F01-82E1-7B386E21F4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF19F998-CA49-4F01-82E1-7B386E21F4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF19F998-CA49-4F01-82E1-7B386E21F4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF19F998-CA49-4F01-82E1-7B386E21F4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D642CF93-E1D5-43F9-8B77-097C19042F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D642CF93-E1D5-43F9-8B77-097C19042F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D642CF93-E1D5-43F9-8B77-097C19042F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D642CF93-E1D5-43F9-8B77-097C19042F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A669E6-5379-47DA-8828-29630446A823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A669E6-5379-47DA-8828-29630446A823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A669E6-5379-47DA-8828-29630446A823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A669E6-5379-47DA-8828-29630446A823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38BFAC4-A295-4C2A-8D94-3A063BD11853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38BFAC4-A295-4C2A-8D94-3A063BD11853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38BFAC4-A295-4C2A-8D94-3A063BD11853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38BFAC4-A295-4C2A-8D94-3A063BD11853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B137808E-87F1-46C8-8B08-9DA92EBA1D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B137808E-87F1-46C8-8B08-9DA92EBA1D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B137808E-87F1-46C8-8B08-9DA92EBA1D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B137808E-87F1-46C8-8B08-9DA92EBA1D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519F1717-E0A2-41C6-8807-84093D78A6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519F1717-E0A2-41C6-8807-84093D78A6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519F1717-E0A2-41C6-8807-84093D78A6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519F1717-E0A2-41C6-8807-84093D78A6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0A9C95C-FBBE-4B98-8351-1E88B127F7B9}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NFTDatabaseEntities\NFTDatabaseEntities.projitems*{2c2f6db5-8389-4667-ba42-96f53ec98e5b}*SharedItemsImports = 5
+		NFTDatabaseEntities\NFTDatabaseEntities.projitems*{2d93ddf1-8e32-46c0-bd74-37b5b48085de}*SharedItemsImports = 5
+		NFTBlockchainEntities\NFTBlockchainEntities.projitems*{4c943b31-1411-4f08-87b5-1d961dfbfe3c}*SharedItemsImports = 13
+		NFTWalletEntities\NFTWalletEntities.projitems*{83a669e6-5379-47da-8828-29630446a823}*SharedItemsImports = 5
+		NFTWalletEntities\NFTWalletEntities.projitems*{879d233d-e3df-452a-889c-e4f59cbe5216}*SharedItemsImports = 13
+		NFTBlockchainEntities\NFTBlockchainEntities.projitems*{c2289109-b314-4935-8d7e-7c4eee1bcfd7}*SharedItemsImports = 5
+		NFTBlockchainEntities\NFTBlockchainEntities.projitems*{c38bfac4-a295-4c2a-8d94-3a063bd11853}*SharedItemsImports = 5
+		NFTWalletEntities\NFTWalletEntities.projitems*{d642cf93-e1d5-43f9-8b77-097c19042f2d}*SharedItemsImports = 5
+		NFTDatabaseEntities\NFTDatabaseEntities.projitems*{dc143cf4-5304-4a38-a2b0-832c30515779}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
